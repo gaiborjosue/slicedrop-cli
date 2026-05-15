@@ -7,8 +7,16 @@
     "slicedrop": "./bin/slicedrop.js",
     "slicedrop-cli": "./bin/slicedrop.js"
   },
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
   "scripts": {
     "smoke": "node ./bin/slicedrop.js --help"
+  },
+  "engines": {
+    "node": ">=20"
   },
   "keywords": [],
   "author": "",
