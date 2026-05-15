@@ -4,13 +4,14 @@
   "description": "Turn local NIfTI files into shareable SliceDrop viewer links.",
   "type": "module",
   "bin": {
-    "slicedrop": "./bin/slicedrop.js",
-    "slicedrop-cli": "./bin/slicedrop.js"
+    "slicedrop": "bin/slicedrop.js",
+    "slicedrop-cli": "bin/slicedrop.js"
   },
   "files": [
     "bin",
     "src",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
     "smoke": "node ./bin/slicedrop.js --help"
@@ -18,9 +19,24 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "slicedrop",
+    "nifti",
+    "medical-imaging",
+    "neuroimaging",
+    "dropbox",
+    "cli"
+  ],
+  "author": "edziocodes",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaiborjosue/slicedrop-cli.git"
+  },
+  "homepage": "https://github.com/gaiborjosue/slicedrop-cli#readme",
+  "bugs": {
+    "url": "https://github.com/gaiborjosue/slicedrop-cli/issues"
+  },
   "dependencies": {
     "dropbox": "^10.34.0",
     "files-sdk": "^1.2.0",

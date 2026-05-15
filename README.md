@@ -5,6 +5,26 @@ Local CLI for turning a NIfTI file into a shareable SliceDrop URL.
 For the initial POC, storage is Dropbox only. Files are uploaded into the
 user's Dropbox app folder, then the CLI prints a SliceDrop viewer URL.
 
+## Install
+
+Install globally with npm:
+
+```bash
+npm install -g slicedrop-cli
+```
+
+Then run:
+
+```bash
+slicedrop --help
+```
+
+You can also run it without a global install:
+
+```bash
+npx slicedrop-cli --help
+```
+
 ## Quick Start
 
 Authorize Dropbox once:
