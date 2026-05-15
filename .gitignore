@@ -7,3 +7,5 @@ dropbox-token.json
 config.json
 credentials.json
 token.json
+
+.vscode/
