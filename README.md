@@ -22,7 +22,7 @@ slicedrop share test.nii.gz
 Example output:
 
 ```txt
-https://slicedrop.github.io/reloaded/?url=<dropbox-direct-download-url>&name=test.nii.gz
+https://gaiborjosue.github.io/slicedrop.github.com/reloaded/?url=<dropbox-direct-download-url>&name=test.nii.gz
 ```
 
 ## Dropbox App
