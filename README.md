@@ -16,13 +16,13 @@ slicedrop auth dropbox
 Share a scan:
 
 ```bash
-slicedrop share brain.nii.gz
+slicedrop share test.nii.gz
 ```
 
 Example output:
 
 ```txt
-https://slicedrop.github.io/reloaded/?url=<dropbox-direct-download-url>&name=brain.nii.gz
+https://slicedrop.github.io/reloaded/?url=<dropbox-direct-download-url>&name=test.nii.gz
 ```
 
 ## Dropbox App
@@ -64,7 +64,7 @@ subfolder:
 
 ```bash
 slicedrop config set dropbox-root-folder /Uploads
-slicedrop share brain.nii.gz
+slicedrop share test.nii.gz
 ```
 
 ## Duplicate Files
