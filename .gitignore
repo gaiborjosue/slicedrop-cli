@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.log
+
+# Keep local auth material out of the repo if someone copies it here.
+dropbox-token.json
+config.json
+credentials.json
+token.json
